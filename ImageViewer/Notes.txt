@@ -1,0 +1,41 @@
+************************* Notes ****************************
+
+Learn about how to access "MainForm" Methods and Members.
+
+************************* Bugs *****************************
+
+ChangeChannel doesn't work correctly after first call.
+ IF ( CHANGED ==1 )
+ RESTORE THE 3 CHANNELS ON THE NEWIMAGE THEN RESET CHANGED AND APPLY THE NEW CHANNEL
+ OR
+ USE TEMPIMAGE OR BACKUPIMAGE TO STORE THE IMAGE AFTER EVERY CHANGE
+ EXCEPT CHANGECHANNEL.
+
+Can work on the application while "Image Resize Preview" is running.
+
+************************ Updates ***************************
+
+Custom Resize, Design finished, Code needed, DISABLED FOR NOW.,
+ ms-help://MS.VSCC.v90/MS.msdnexpress.v90.en/dv_csexpresscon/html/b258910a-57c6-4262-b84d-7a9d6bc97a64.htm
+ Maybe moving "ResizeImage" to "CustomSizeForm"
+ Use RadioButtonGroup to select "Presets" Or "Custom" on "CustomSizeForm"
+
+
+Refine "CloseMenu", Add Exceptions.
+
+Refine Drag & Drop.
+
+Keyboard Shortcut Support.
+
+Addition, Need Review.
+
+Subtraction, Need Review.
+
+Version Update " NO v2.0 Until All Known Bugs Are Fixed "
+
+************************ New Features **********************
+
+Rotate - TODO
+Crop - TODO
+Scale "Resize By Ratio"
+Draw lines, rectangles.
